@@ -16,14 +16,14 @@ Performs a web search using the Google Custom Search JSON API.
 | num | integer | no | 10 | Results to return (1-10) |
 | start | integer | no | 1 | 1-based index of first result |
 | safe | string | no | "off" | `active`, `moderate`, or `off` |
-| search_type | any | no | | Set to `image` for image search |
-| site_search | any | no | | Restrict to a specific site/domain |
-| site_search_filter | any | no | | `e` (exclude) or `i` (include) site_search results |
-| date_restrict | any | no | | e.g. `d5` (past 5 days), `m3` (past 3 months) |
-| file_type | any | no | | e.g. `pdf`, `doc` |
-| language | any | no | | e.g. `lang_en` |
-| country | any | no | | e.g. `countryUS` |
-| sites | any | no | | List of domains to restrict results to, e.g. `["example.com"]` |
+| search_type | string | no | | Set to `image` for image search |
+| site_search | string | no | | Restrict to a specific site/domain |
+| site_search_filter | string | no | | `e` (exclude) or `i` (include) site_search results |
+| date_restrict | string | no | | e.g. `d5` (past 5 days), `m3` (past 3 months) |
+| file_type | string | no | | e.g. `pdf`, `doc` |
+| language | string | no | | e.g. `lang_en` |
+| country | string | no | | e.g. `countryUS` |
+| sites | array | no | | List of domains, e.g. `["example.com"]` |
 
 ### get_search_engine_info
 Retrieves metadata about the configured Programmable Search Engine, including its configuration and available refinements.
