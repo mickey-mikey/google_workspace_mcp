@@ -5,6 +5,8 @@ description: >
   Supports MCP tools or CLI via uvx workspace-mcp --cli. Provides tool routing, workflows, and parameter guidance for 114 tools.
   Triggers for "check my email", "find a file", "schedule a meeting", "update the spreadsheet", "share a doc",
   "create a presentation", "add a task", "look up a contact", or any mention of Google Workspace services.
+allowed-tools: Bash(uvx workspace-mcp *)
+user-invocable: false
 ---
 
 # Google Workspace -- Tool Router
