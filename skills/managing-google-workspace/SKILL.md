@@ -245,7 +245,7 @@ For parameters: [references/search.md](references/search.md)
 |------|------|
 | Start OAuth flow | `start_google_auth` |
 
-Parameters: `service_name` (string, required -- e.g. `"gmail"`, `"drive"`), `user_google_email` (string, optional). Legacy OAuth 2.0 only -- disabled when OAuth 2.1 is enabled. In most cases, just call the tool you need and auth happens automatically.
+Parameters: `user_google_email` (string, optional), `service_name` (string, required -- e.g. `"gmail"`, `"drive"`). Legacy OAuth 2.0 only -- disabled when OAuth 2.1 is enabled. In most cases, just call the tool you need and auth happens automatically.
 
 ## Common Workflows
 
