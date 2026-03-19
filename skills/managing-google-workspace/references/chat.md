@@ -61,7 +61,7 @@ Adds an emoji reaction to a message.
 |-----------|------|----------|---------|-------|
 | user_google_email | string | yes | | |
 | message_id | string | yes | | Resource name, e.g. `spaces/X/messages/Y` |
-| emoji_unicode | string | yes | | Emoji character, e.g. thumbs-up |
+| emoji_unicode | string | yes | | Literal Unicode emoji character (not a shortcode) |
 
 ### download_chat_attachment
 Downloads an attachment from a Chat message. Returns a local file path (stdio mode) or a temporary URL valid for 1 hour (HTTP mode).

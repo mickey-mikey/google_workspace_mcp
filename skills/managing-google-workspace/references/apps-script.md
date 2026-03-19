@@ -179,4 +179,4 @@ Gets execution metrics (active users, total executions, failures) for a script p
 
 **Development mode**: Set `dev_mode: true` in `run_script_function` to execute the latest saved code instead of the last deployed version. This is useful during development and testing.
 
-**Deploy workflow**: Always create a version with `create_version` before creating a deployment with `manage_deployment`. Deployments reference a specific version snapshot of your code.
+**Deploy workflow**: `manage_deployment` (create action) creates a version internally, so a separate `create_version` call is not required. Use `create_version` explicitly if you want a named version snapshot independent of deployment.
