@@ -1,0 +1,17 @@
+{
+  "name": "google-workspace-mcp",
+  "description": "Complete Google Workspace integration -- Gmail, Drive, Calendar, Docs, Sheets, Slides, Forms, Tasks, Contacts, Chat, Apps Script, and Custom Search via MCP with workflow guidance.",
+  "version": "1.14.3",
+  "author": {
+    "name": "taylorwilsdon"
+  },
+  "mcpServers": {
+    "google-workspace": {
+      "command": "uvx",
+      "args": ["workspace-mcp"],
+      "env": {
+        "PYTHONIOENCODING": "utf-8"
+      }
+    }
+  }
+}
